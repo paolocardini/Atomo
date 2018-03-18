@@ -1,0 +1,58 @@
+
+
+body {
+  margin:0px;
+  padding:0px;
+  overflow: hidden;
+  background-color: black;
+}
+
+#container{
+  height: 1000px;
+}
+
+nav{
+  height:150px;
+  background-color: black;
+}
+
+.logo{
+  height: 30px;
+  width: 113px;
+  display: inline-block;
+  margin-top: 40px;
+  margin-left: 50px;
+}
+
+li{
+  color:white;
+  float: right;
+  margin-top: 30px;
+  list-style: none;
+  margin: 50px;
+  line-height: 1em;
+}
+
+
+#torch {
+  border-radius:80px;
+  position:absolute;
+  top:0px;
+  left:-100000px;
+  width:160px;
+  height:160px;
+  background-image: url(../img/paoloweb-13.png);
+  background-position: 0 0;
+  -webkit-box-shadow:inset 0 0 15px 15px black;
+  -moz-box-shadow:inset 0 0 15px 15px black;
+  box-shadow: inset 0 0 15px 15px black;
+}
+
+
+.image-center{
+  height: 366px;
+  width: 1225px;
+  position: absolute;
+  left:163px;
+  top: 291px;
+}
