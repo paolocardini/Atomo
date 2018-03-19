@@ -1,15 +1,11 @@
-
-
 body {
   margin:0px;
   padding:0px;
   overflow: hidden;
-  background-color: black;
+  background:linear-gradient(rgba(0,0,0,0.86),rgba(0,0,0,0.86)),url(../img/paoloweb-14.png);
+  font-family: sans-serif;
 }
 
-#container{
-  height: 1000px;
-}
 
 nav{
   height:150px;
@@ -41,7 +37,7 @@ li{
   left:-100000px;
   width:160px;
   height:160px;
-  background-image: url(../img/paoloweb-13.png);
+  background-image: url(../img/paoloweb-14.png);
   background-position: 0 0;
   -webkit-box-shadow:inset 0 0 15px 15px black;
   -moz-box-shadow:inset 0 0 15px 15px black;
